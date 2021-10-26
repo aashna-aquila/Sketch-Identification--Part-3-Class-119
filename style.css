@@ -1,0 +1,27 @@
+body{
+    background-color: darkblue;
+}
+h1{
+    color:white;
+    background-color: red;
+}
+#sketch{
+    float: right;
+}
+p{
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top:65px;
+    animation-name:canva;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+@keyframes canva{
+    from{box-shadow: 1px 1px 38px white;}
+    to{box-shadow: 1px 1px 38px black ;}
+}
